@@ -1,11 +1,3 @@
-resilience4j:
-  circuitbreaker:
-    instances:
-      getResource:
-        failure-rate-threshold: 1
-        sliding-window-type: count_based
-        sliding-window-size: 1
-        minimum-number-of-calls: 1
 spring:
   aop:
     proxy-target-class: false
